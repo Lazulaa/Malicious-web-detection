@@ -40,7 +40,3 @@ if choice == "Home":
                 st.error(f"The website is likely unsafe.")
         else:
             st.warning("Please enter a URL.")
-
-elif choice == "Use Cases":
-    st.subheader("Use Cases")
-    st.write("Here you can describe various use cases of your application.")
